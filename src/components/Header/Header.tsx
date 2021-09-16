@@ -89,7 +89,7 @@ export function Header() {
                     </div>
                 </div>
             </div>
-            <div className={(showMenu ? "transition duration-500 ease-in-out transform scale-y-1 opacity-1 origin-top" : 'transition duration-500 ease-in-out transform scale-y-0 opacity-0 origin-top') + " sm:hidden"}>
+            <div className={(showMenu ? "scale-y-1 opacity-1 " : "scale-y-0 opacity-0") + " transform transition duration-500 ease-in-out origin-top sm:hidden"}>
                 <MobileNav items={navItems} />
             </div>
         </>
