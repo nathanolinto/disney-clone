@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .navItem::after {
+    content: "";
+    height: 2px;
+    background-color: white;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+} */
