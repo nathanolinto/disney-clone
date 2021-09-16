@@ -1,11 +1,17 @@
 import React from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom"
+
+import {Initial} from "./pages/Initial";
 
 
 function App() {
   return (
-    <>
-      Hello, React App.
-    </>
+
+    <BrowserRouter>
+        <Switch>
+            <Route path="/" exact component={Initial} />
+        </Switch>
+    </BrowserRouter>
   );
 }
 
