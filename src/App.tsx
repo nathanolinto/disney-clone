@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 
-import {Initial} from "./pages/Initial";
+import {Home} from "./pages/Home";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
 
     <BrowserRouter>
         <Switch>
-            <Route path="/" exact component={Initial} />
+            <Route path="/" exact component={Home} />
         </Switch>
     </BrowserRouter>
   );
