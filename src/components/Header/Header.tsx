@@ -65,7 +65,7 @@ export function Header() {
     return (
         <>
             <div className="flex h-16 w-full" style={{ backgroundColor: "#090b13" }}>
-                <div className="flex justify-between items-center container mx-auto px-7 lg:max-w-screen-lg">
+                <div className="flex justify-between items-center container mx-auto px-1 lg:max-w-screen-lg">
                     <div className="flex items-center gap-6">
                         <img className="h-10" src={Logo} alt="Disney" />
                         <div className="hidden sm:flex">
