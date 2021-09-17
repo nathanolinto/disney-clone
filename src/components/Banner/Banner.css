@@ -1,0 +1,14 @@
+ul li button::before {
+    font-size: 10px;
+    color: white !important;
+}
+li.slick-active button::before {
+    color: #fff !important;
+}
+.slick-list{
+    overflow: visible;
+}
+
+button {
+    z-index: 1;
+}
